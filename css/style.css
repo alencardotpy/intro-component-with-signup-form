@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*
+# Front-end Style Guide
+
+## Layout
+
+*/
+  --WidthMobile: 375px;
+  --WidthDesktop: 1440px;
+  /*
+## Colors
+
+### Primary
+*/
+  --ColorRed: hsl(0, 100%, 74%);
+  --Green: hsl(154, 59%, 51%);
+  /*
+### Accent
+*/
+  --ColorBlue: hsl(248, 32%, 49%);
+  /*
+### Neutral
+*/
+  --ColorDarkBlue: hsl(249, 10%, 26%);
+  --ColorGrayishBlue: hsl(246, 25%, 77%);
+  /*
+## Typography
+
+### Body Copy
+*/
+  --FontSize: 16px;
+  /*
+### Font
+*/
+  --FontFamily: "Poppins", "sans-serif";
+  --FontWeightRegular: 400;
+  --FontWeightMedium: 500;
+  --FontWeightSemiBold: 600;
+  --FontWeightBold: 700;
+}
+
+/* Frontend Mentor Attribution styles*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
