@@ -182,3 +182,65 @@ body {
   padding-left: 20px;
   font-weight: var(--FontWeightBold);
 }
+
+@media screen and (min-width: 769px) {
+  body {
+
+  }
+
+  .main_container {
+
+  }
+
+  .main_container__header_container {
+
+
+  }
+
+  .main_container__header_container__title {
+
+
+  }
+
+  .main_container__header_container__text {
+
+
+  }
+
+  .main_container__content_container {
+
+  }
+
+  .main_container__content_container__message_container {
+
+
+  }
+
+  .main_container__content_container__message_container__text {
+
+  }
+
+  .main_container__content_container__message_container__text-bold {
+  }
+
+  .main_container__content_container__form {
+  }
+
+  .main_container__content_container__form__fieldset {
+  }
+
+  .main_container__content_container__form__fieldset__submit {
+  }
+
+  .main_container__content_container__form__fieldset__terms_container {
+  }
+
+  .main_container__content_container__form__terms_container__text {
+  }
+
+  .main_container__content_container__form__terms_container__text__link {
+  }
+
+  .fieldset__field {
+  }
+}
