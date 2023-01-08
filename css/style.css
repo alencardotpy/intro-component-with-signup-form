@@ -62,9 +62,8 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 10px;
   font-family: var(--FontFamily);
-  height: 100vh;
-  max-width: var(--WidthMobile);
-  min-width: var(--WidthMobile);
+
+  max-width:350px;
   margin: 10px auto;
 }
 
