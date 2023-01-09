@@ -63,7 +63,7 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 10px;
   font-family: var(--FontFamily);
-  max-width:350px;
+  max-width: 350px;
   margin: 10px auto;
 }
 
@@ -183,6 +183,7 @@ body {
 }
 
 @media screen and (min-width: 769px) {
+  html,
   body {
 
   }
@@ -193,7 +194,6 @@ body {
 
   .main_container__header_container {
 
-
   }
 
   .main_container__header_container__title {
@@ -203,7 +203,6 @@ body {
 
   .main_container__header_container__text {
 
-
   }
 
   .main_container__content_container {
@@ -211,7 +210,6 @@ body {
   }
 
   .main_container__content_container__message_container {
-
 
   }
 
