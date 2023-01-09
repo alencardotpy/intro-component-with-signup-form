@@ -38,38 +38,109 @@
         </div>
         <form action="#" class="main_container__content_container__form">
           <fieldset class="main_container__content_container__form__fieldset">
-            <input
-              type="text"
-              placeholder="First name"
-              name="firstname"
-              class="main_container__content_container__form__fieldset__firstname_field fieldset__field"
-              required
-            />
-            <input
-              type="text"
-              placeholder="Last name"
-              name="lastname"
-              class="main_container__content_container__form__fieldset__firstname_field fieldset__field"
-              required
-            />
-            <input
-              type="text"
-              placeholder="Email"
-              name="email"
-              class="main_container__content_container__form__fieldset__email_field fieldset__field"
-              required
-            />
-            <input
-              type="password"
-              placeholder="Password"
-              name="password"
-              class="main_container__content_container__form__fieldset__password_field fieldset__field"
-              required
-            />
+            <div
+              class="main_container__content_container__form__fieldset__field_container"
+            >
+              <input
+                id="firstName"
+                type="text"
+                placeholder="First name"
+                name="firstname"
+                class="main_container__content_container__form__fieldset__firstname_field fieldset__field"
+                required
+              />
+              <img
+                id="firstNameErrorIcon"
+                src="./images/icon-error.svg"
+                alt=""
+                class="main_container__content_container__form__fieldset__field_container__icon_error"
+              />
+              <p
+                id="firstNameError"
+                class="main_container__content_container__form__fieldset__field_container__text_error"
+              >
+                First Name cannot be empty
+              </p>
+            </div>
+            <div
+              class="main_container__content_container__form__fieldset__field_container"
+            >
+              <input
+                id="lastName"
+                type="text"
+                placeholder="Last name"
+                name="lastname"
+                class="main_container__content_container__form__fieldset__firstname_field fieldset__field"
+                required
+              />
+              <img
+                id="lastNameErrorIcon"
+                src="./images/icon-error.svg"
+                alt=""
+                class="main_container__content_container__form__fieldset__field_container__icon_error"
+              />
+              <p
+                id="lastNameError"
+                class="main_container__content_container__form__fieldset__field_container__text_error"
+              >
+                Last Name cannot be empty
+              </p>
+            </div>
+            <div
+              class="main_container__content_container__form__fieldset__field_container"
+            >
+              <input
+                id="email"
+                type="email"
+                placeholder="Email"
+                name="email"
+                class="main_container__content_container__form__fieldset__email_field fieldset__field"
+                required
+              />
+              <img
+                id="emailErrorIcon"
+                src="./images/icon-error.svg"
+                alt=""
+                class="main_container__content_container__form__fieldset__field_container__icon_error"
+              />
+              <p
+                id="emailError"
+                class="main_container__content_container__form__fieldset__field_container__text_error"
+              >
+                Looks like this is not an email
+              </p>
+            </div>
+            <div
+              class="main_container__content_container__form__fieldset__field_container"
+            >
+              <input
+                id="password"
+                type="password"
+                placeholder="Password"
+                name="password"
+                class="main_container__content_container__form__fieldset__password_field fieldset__field"
+                minlength="2"
+
+                required
+              />
+              <img
+                id="passwordErrorIcon"
+                src="./images/icon-error.svg"
+                alt=""
+                class="main_container__content_container__form__fieldset__field_container__icon_error"
+              />
+
+              <p
+                id="passwordError"
+                class="main_container__content_container__form__fieldset__field_container__text_error"
+              >
+                Password cannot be empty
+              </p>
+            </div>
             <button
               class="main_container__content_container__form__fieldset__submit"
               type="submit"
-              onclick=""
+              onclick="validFields()"
             >
               Claim your free trial
             </button>
