@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*
+# Front-end Style Guide
+
+## Layout
+
+*/
+  --WidthMobile: 375px;
+  --WidthDesktop: 1440px;
+  /*
+## Colors
+
+### Primary
+*/
+  --ColorRed: hsl(0, 100%, 74%);
+  --ColorGreen: hsl(154, 59%, 51%);
+  /*
+### Accent
+*/
+  --ColorBlue: hsl(248, 32%, 49%);
+  /*
+### Neutral
+*/
+  --ColorDarkBlue: hsl(249, 10%, 26%);
+  --ColorGrayishBlue: hsl(246, 25%, 77%);
+  /*
+## Typography
+
+### Body Copy
+*/
+  --FontSize: 16px;
+  /*
+### Font
+*/
+  --FontFamily: "Poppins", "sans-serif";
+  --FontWeightRegular: 400;
+  --FontWeightMedium: 500;
+  --FontWeightSemiBold: 600;
+  --FontWeightBold: 700;
+}
+
+/* Frontend Mentor Attribution styles*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/bg-intro-mobile.png");
+  background-color: var(--ColorRed);
+  background-repeat: no-repeat;
+  background-position: 50% 10px;
+  font-family: var(--FontFamily);
+  max-width: 350px;
+  margin: 10px auto;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  margin-top: 38px;
+  height: auto;
+}
+
+.main_container__header_container {
+  margin: 35px auto;
+  color: #fff;
+}
+
+.main_container__header_container__title {
+  width: 230px;
+  line-height: 35px;
+  margin: 30px auto;
+  font-size: 1.7rem;
+}
+
+.main_container__header_container__text {
+  width: auto;
+  max-width: 310px;
+  text-align: center;
+  line-height: 26px;
+  margin: 0 auto;
+}
+
+.main_container__content_container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.main_container__content_container__message_container {
+  background: var(--ColorBlue);
+  color: #fff;
+  height: 90px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 8px 0 0px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+}
+
+.main_container__content_container__message_container__text {
+  width: 230px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: var(--ColorGrayishBlue);
+  font-weight: var(--FontWeightRegular);
+}
+
+.main_container__content_container__message_container__text-bold {
+  font-weight: var(--FontWeightSemiBold);
+  color: #fff;
+}
+
+.main_container__content_container__form {
+  height: auto;
+  background-color: #fff;
+  padding: 27px;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0 8px 0 0 rgba(0, 0, 0, 0.18);
+}
+
+.main_container__content_container__form__fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: none;
+}
+.main_container__content_container__form__fieldset__field_container {
+  display: flex;
+  flex-direction: column;
+}
+.main_container__content_container__form__fieldset__field_container__icon_error {
+  display: none;
+  position: absolute;
+  align-self: flex-end;
+
+  padding: 10px;
+}
+.main_container__content_container__form__fieldset__field_container__text_error {
+  display: none;
+  color: var(--ColorRed);
+  text-align: right;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: var(--FontWeightSemiBold);
+}
+.main_container__content_container__form__fieldset__submit {
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--ColorGreen);
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: var(--FontWeightSemiBold);
+  letter-spacing: 1px;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.2);
+}
+.main_container__content_container__form__fieldset__submit:hover {
+  background-color: hsla(154, 59%, 51%, 0.812);
+}
+.main_container__content_container__form__fieldset__terms_container {
+  width: 250px;
+  margin: 0 auto 5px auto;
+}
+
+.main_container__content_container__form__terms_container__text {
+  font-size: 11px;
+  color: var(--ColorGrayishBlue);
+  text-align: center;
+  line-height: 20px;
+}
+
+.main_container__content_container__form__terms_container__text__link {
+  text-decoration: none;
+  color: var(--ColorRed);
+  font-weight: var(--FontWeightBold);
+}
+
+.fieldset__field {
+  height: 53px;
+  border-radius: 5px;
+  border: 0.5px solid rgba(125, 125, 125, 0.3);
+  font-size: var(--FontSize);
+  padding-left: 20px;
+  font-weight: var(--FontWeightBold);
+}
+
+@media screen and (min-width: 769px) {
+  /* Frontent Mentor Attribution*/
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 30px auto;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  html,
+  body {
+    width: auto;
+    height: 100vh;
+    background-image: url("../images/bg-intro-desktop.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: auto;
+    max-width: none;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main_container {
+    flex-direction: row;
+    width: auto;
+    max-width: 850px;
+    min-width: none;
+    padding: 0;
+    margin: auto;
+    height: auto;
+  }
+
+  .main_container__header_container {
+    margin: auto 10px;
+    width: 350px;
+  }
+
+  .main_container__header_container__title {
+    width: 350px;
+  }
+
+  .main_container__header_container__text {
+    width: 350px;
+    max-width: none;
+    font-size: 0.7rem;
+    line-height: 17px;
+    text-align: left;
+  }
+
+  .main_container__content_container {
+    width: 100%;
+    width: 550px;
+    height: 100%;
+  }
+
+  .main_container__content_container__message_container {
+    height: 50px;
+    border-radius: 5px;
+  }
+
+  .main_container__content_container__message_container__text {
+    width: auto;
+    font-size: 90%;
+  }
+
+  .main_container__content_container__form {
+    border-radius: 5px;
+    height: auto;
+  }
+
+  .main_container__content_container__form__fieldset__submit {
+    height: 50px;
+  }
+
+  .main_container__content_container__form__fieldset__terms_container {
+    width: 100%;
+  }
+
+  .fieldset__field {
+    height: 40px;
+  }
+}
