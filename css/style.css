@@ -249,15 +249,9 @@ body {
     font-size: 90%;
   }
 
-  .main_container__content_container__message_container__text-bold {
-  }
-
   .main_container__content_container__form {
     border-radius: 5px;
     height: auto;
-  }
-
-  .main_container__content_container__form__fieldset {
   }
 
   .main_container__content_container__form__fieldset__submit {
@@ -266,12 +260,6 @@ body {
 
   .main_container__content_container__form__fieldset__terms_container {
     width: 100%;
-  }
-
-  .main_container__content_container__form__terms_container__text {
-  }
-
-  .main_container__content_container__form__terms_container__text__link {
   }
 
   .fieldset__field {
