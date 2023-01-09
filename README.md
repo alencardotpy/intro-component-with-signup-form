@@ -40,8 +40,8 @@ Desktop View
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Repo](https://github.com/alencardotpy/intro-component-with-signup-form)
+- Live Site URL: [Github Pagese](https://alencardotpy.github.io/intro-component-with-signup-form/)
 
 ## My process
 
