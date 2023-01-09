@@ -183,53 +183,89 @@ body {
 }
 
 @media screen and (min-width: 769px) {
+  /* Frontent Mentor Attribution*/
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 30px auto;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
   html,
   body {
-
+    width: auto;
+    height: 100vh;
+    background-image: url("../images/bg-intro-desktop.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: auto;
+    max-width: none;
+    padding: 0 10px;
   }
 
   .main_container {
-
+    flex-direction: row;
+    width: auto;
+    max-width: 850px;
+    min-width: none;
+    padding: 0;
+    margin: auto;
+    height: auto;
   }
 
   .main_container__header_container {
-
+    margin: auto 10px;
+    width: 350px;
   }
 
   .main_container__header_container__title {
-
-
+    width: 350px;
   }
 
   .main_container__header_container__text {
-
+    width: 350px;
+    max-width: none;
+    font-size: 0.7rem;
+    line-height: 17px;
+    text-align: left;
   }
 
   .main_container__content_container {
-
+    width: 100%;
+    width: 550px;
+    height: 100%;
   }
 
   .main_container__content_container__message_container {
-
+    height: 50px;
+    border-radius: 5px;
   }
 
   .main_container__content_container__message_container__text {
-
+    width: auto;
+    font-size: 90%;
   }
 
   .main_container__content_container__message_container__text-bold {
   }
 
   .main_container__content_container__form {
+    border-radius: 5px;
+    height: auto;
   }
 
   .main_container__content_container__form__fieldset {
   }
 
   .main_container__content_container__form__fieldset__submit {
+    height: 50px;
   }
 
   .main_container__content_container__form__fieldset__terms_container {
+    width: 100%;
   }
 
   .main_container__content_container__form__terms_container__text {
@@ -239,5 +275,6 @@ body {
   }
 
   .fieldset__field {
+    height: 40px;
   }
 }
